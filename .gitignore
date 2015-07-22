@@ -1,6 +1,7 @@
 .DS_Store
 *.log
 .htaccess
+.sass-cache:
 sitemap.xml
 sitemap.xml.gz
 wp-config.php
