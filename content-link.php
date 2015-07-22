@@ -1,7 +1,7 @@
 <?php 
 /**
 *
-* This is Aside Content.
+* This is Link Content.
 *
 **/
 

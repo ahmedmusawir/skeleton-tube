@@ -3,6 +3,7 @@
 // ===============================
 @import url(http://fonts.googleapis.com/css?family=Nixie+One);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 
 body {
 	// font-family: 'Poiret One', cursive;
@@ -220,6 +221,28 @@ figure.thumbnail {
 		padding-left: 1em;
 		padding-top: 1em;
 	}
+}
+
+.post-aside {
+	background-color: lighten( dodgerblue, 40%);
+	// border: 1px solid red;
+	margin-bottom: 2.5em;
+	padding: 1em;
+	font-variant: small-caps;
+	color: lighten( black, 60%);
+
+	span.aside-text {
+		// border: 1px solid red; 
+		padding-left: 2em;
+		padding-right: 2em;
+
+	}
+
+	i.fa {
+		font-size: 1.5em;
+		opacity: .5;
+	}
+
 }
 
 

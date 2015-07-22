@@ -21,6 +21,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  */
 @import url(http://fonts.googleapis.com/css?family=Nixie+One);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 html {
   font-family: sans-serif;
   /* 1 */
@@ -970,6 +971,19 @@ button.button-primary:hover {
   .post-link h3 {
     padding-left: 1em;
     padding-top: 1em; }
+
+.post-aside {
+  background-color: #eaf5ff;
+  margin-bottom: 2.5em;
+  padding: 1em;
+  font-variant: small-caps;
+  color: #999999; }
+  .post-aside span.aside-text {
+    padding-left: 2em;
+    padding-right: 2em; }
+  .post-aside i.fa {
+    font-size: 1.5em;
+    opacity: .5; }
 
 /* =WordPress Core
 -------------------------------------------------------------- */
