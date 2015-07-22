@@ -41,8 +41,8 @@ $dark-grey: #333 !default;
 $primary-color: #33c3f0 !default;
 $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
-$link-color: yellow !default;
-// $link-color: #1eaedb !default;
+// $link-color: yellow !default;
+$link-color: #1eaedb !default;
 $font-color: #222 !default;
 
 // Typography
@@ -57,7 +57,7 @@ $column-width: 100 / $total-columns !default; // calculates individual column wi
 $column-margin: 4% !default; // space between columns
 
 // Misc
-$global-radius: 4px !default;
+$global-radius: 0px !default;
 
 // Functions
 @function grid-column-width($n) {

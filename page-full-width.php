@@ -1,14 +1,14 @@
 <?php 
 /**
 *
-* This is the index file.
+* Template Name: Full Width Template
 *
 **/
 get_header();
 ?>
 <section class="row">
 
-	<article class="page two-thirds column">
+	<article class="page twelve columns">
 
 		<?php get_template_part( 'content', 'page' ); ?>
 
@@ -38,7 +38,6 @@ get_header();
 		</nav>
 	
 	</article>
-	<?php get_sidebar(); ?>
 
 </section>
 <hr>
