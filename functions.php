@@ -39,7 +39,7 @@ function SkeletonTube_Setup() {
 	*
 	**/
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'banner-image', 950, 300, true );
+	add_image_size( 'banner-image', 950, 350, true );
 
 	/**
 	*

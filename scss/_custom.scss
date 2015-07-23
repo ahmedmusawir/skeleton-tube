@@ -26,8 +26,6 @@ img {
 }
 .wrapper {
 
-	// background-color: white;
-
 }
 header {
 	margin-top: 2em;
@@ -74,7 +72,7 @@ figure.thumbnail {
 
 	transition: 1s all ease-out;
 	padding-left: 1em;
-	
+
 	&:hover {
 		opacity: .5;
 		-ms-transform: rotate(7deg); /* IE 9 */
@@ -252,6 +250,80 @@ figure.thumbnail {
 	text-align: center;
 	padding-top: 1.4em;
 	padding-bottom: .1em;
+	font-size: .8em;
+}
+
+.odd-even-box {
+
+	background: url('http://stube/wp-content/themes/skeleton-tube/images/background-pattern-3.jpg');
+	padding-top: 2em;
+
+	.odd {
+		background-color: darken( red, 50%);
+		float: left;
+		width: 50%;
+		list-style-type: none;
+		margin-bottom: 4em;
+		margin-left: -2em;
+
+		.odd-content {
+			padding-left: 1em;
+			padding-top: 1em;
+		}
+	}
+	.even {
+		background-color: darken( yellow, 40%);
+		float: right;
+		width: 40%;
+		list-style-type: none;
+		// margin-right: -2em;
+
+		.even-content {
+			padding-left: 1em;
+			padding-top: 1em;
+		}
+	}
+}
+
+.car-video {
+	li {
+		list-style-type: none;
+	}
+}
+
+/**
+*
+* Sidebar Widgets 
+*
+**/
+
+.sidebar-widget {
+
+	// box-sizing: border-box;
+	position: relative;
+
+	.widgettitle {
+		font-size: 1.2em;
+		font-variant: small-caps;
+		font-weight: 900;
+	}
+
+	ul {
+		list-style: none;
+
+		ul {
+			margin-left: 0;
+
+			li {
+				transition: 1s all ease-out;
+
+				&:hover {
+					font-size: 1.5em;
+					// color: hotpink; DOES NOT WORK
+				}
+			}
+		}
+	}
 }
 
 
