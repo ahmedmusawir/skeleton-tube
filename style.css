@@ -872,7 +872,8 @@ a {
   text-decoration: none; }
 
 figure.thumbnail {
-  transition: 1s all ease-out; }
+  transition: 1s all ease-out;
+  padding-left: 1em; }
   figure.thumbnail:hover {
     opacity: .5;
     -ms-transform: rotate(7deg);
@@ -984,6 +985,12 @@ button.button-primary:hover {
   .post-aside i.fa {
     font-size: 1.5em;
     opacity: .5; }
+
+.single-content-meta {
+  background-color: #333;
+  text-align: center;
+  padding-top: 1.4em;
+  padding-bottom: .1em; }
 
 /* =WordPress Core
 -------------------------------------------------------------- */

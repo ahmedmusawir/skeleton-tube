@@ -73,7 +73,35 @@ add_filter( 'excerpt_length', 'custom_excerpt_length' );
 
 /**
 *
-* Get top ancestor
+* Add Widgets Locations
+*
+**/
+function SkeletonTube_Widgets() {
+
+	   /**
+		* Creates a sidebar
+		* @param string|array  Builds Sidebar based off of 'name' and 'id' values.
+		*/
+		$args = array(
+			'name'          => __( 'Sidebar Main', 'SkeletonTube' ),
+			'id'            => 'sidebar-main',
+			'description'   => '',
+			'class'         => 'sidebar-widget-main',
+			'before_widget' => '<li id="%1" class="widget %2">',
+			'after_widget'  => '</li>',
+			'before_title'  => '<h5 class="widgettitle">',
+			'after_title'   => '</h5>'
+		);
+	
+		register_sidebar( $args );
+	
+} 
+
+add_action( 'widgets_init', 'SkeletonTube_Widgets' );
+
+/**
+*
+* Get top ancestor DID NOT WORK HERE
 *
 **/
 function get_top_ancestor_id() {

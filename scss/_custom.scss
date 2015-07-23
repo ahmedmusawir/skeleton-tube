@@ -73,6 +73,8 @@ a {
 figure.thumbnail {
 
 	transition: 1s all ease-out;
+	padding-left: 1em;
+	
 	&:hover {
 		opacity: .5;
 		-ms-transform: rotate(7deg); /* IE 9 */
@@ -243,6 +245,13 @@ figure.thumbnail {
 		opacity: .5;
 	}
 
+}
+
+.single-content-meta {
+	background-color: $dark-grey;
+	text-align: center;
+	padding-top: 1.4em;
+	padding-bottom: .1em;
 }
 
 
