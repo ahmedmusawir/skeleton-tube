@@ -61,6 +61,7 @@ get_header();
 	</article>
 </section>
 
+
 <section class="row odd-even-box">
 <?php 
 //I will use WP_Query class instance
@@ -153,6 +154,7 @@ endwhile; wp_reset_postdata(); endif;
 ?>
 
 </section>
+
 <hr>
 <?php get_footer(); ?>
 

@@ -255,35 +255,75 @@ figure.thumbnail {
 
 .odd-even-box {
 
-	background: url('http://stube/wp-content/themes/skeleton-tube/images/background-pattern-3.jpg');
-	padding-top: 2em;
+
+		background: url('http://stube/wp-content/themes/skeleton-tube/images/background-pattern-3.jpg');
+		padding-top: 2em;
 
 	.odd {
 		background-color: darken( red, 50%);
-		float: left;
-		width: 50%;
+		width: 100%;
+		float: none;
 		list-style-type: none;
-		margin-bottom: 4em;
-		margin-left: -2em;
 
 		.odd-content {
 			padding-left: 1em;
 			padding-top: 1em;
 		}
+
 	}
 	.even {
 		background-color: darken( yellow, 40%);
-		float: right;
-		width: 40%;
+		width: 100%;
+		float: none;
 		list-style-type: none;
-		// margin-right: -2em;
 
 		.even-content {
 			padding-left: 1em;
 			padding-top: 1em;
 		}
+
+	}
+}		
+@media (#{$bp-larger-than-phablet}) {
+
+	.odd-even-box {
+
+
+		.odd {
+			
+			float: left;
+			width: 50%;
+			margin-bottom: 4em;
+			margin-left: -2em;
+
+			
+		}
+		.even {
+			
+			float: right;
+			width: 45%;
+			list-style-type: none;
+			// margin-right: -2em;
+
+			
+		}
 	}
 }
+// Larger than tablet
+// @media (#{$bp-larger-than-phablet }) {
+// 	.odd-even-box {
+// 		.odd {
+// 			margin-left: 0;
+// 			margin-bottom: 2em;
+// 		}
+// 		.even {
+// 			width: 45%;
+// 		}
+// 	}
+// }
+// Larger than phablet (also point when grid becomes active)
+
+
 
 .car-video {
 	li {

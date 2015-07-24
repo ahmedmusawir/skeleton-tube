@@ -998,23 +998,31 @@ button.button-primary:hover {
   padding-top: 2em; }
   .odd-even-box .odd {
     background-color: black;
-    float: left;
-    width: 50%;
-    list-style-type: none;
-    margin-bottom: 4em;
-    margin-left: -2em; }
+    width: 100%;
+    float: none;
+    list-style-type: none; }
     .odd-even-box .odd .odd-content {
       padding-left: 1em;
       padding-top: 1em; }
   .odd-even-box .even {
     background-color: #333300;
-    float: right;
-    width: 40%;
+    width: 100%;
+    float: none;
     list-style-type: none; }
     .odd-even-box .even .even-content {
       padding-left: 1em;
       padding-top: 1em; }
 
+@media (min-width: 550px) {
+  .odd-even-box .odd {
+    float: left;
+    width: 50%;
+    margin-bottom: 4em;
+    margin-left: -2em; }
+  .odd-even-box .even {
+    float: right;
+    width: 45%;
+    list-style-type: none; } }
 .car-video li {
   list-style-type: none; }
 
